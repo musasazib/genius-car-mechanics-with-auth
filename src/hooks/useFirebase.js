@@ -19,7 +19,7 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
             })
-            .finally(() => setIsLoading(false));
+            // .finally(() => setIsLoading(false));
     }
 
     // Observe user state change 
